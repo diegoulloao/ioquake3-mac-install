@@ -4,10 +4,10 @@ Instala ioquake3 + cpma + cpma map pack + high resolution pack + q3 live sounds 
 
 ## Instalación 📦
 
-Para instalar directamente basta con sólo **Copiar y Pegar** éstas líneas en una ventana del Terminal:
+Para instalar directamente basta con **Copiar y Pegar** éstas líneas en una ventana del Terminal:
 
 ```
-cd $HOME/Downloads && curl -L https://www.dropbox.com/s/y5gm9jhopbh3lh2/install-quake3%2Bcpma%2Bmappack%2Bhdres%2Bliveaudio.sh?dl=1 > install-quake3+cpma+mappack+hdres+liveaudio.sh && sh install-quake3+cpma+mappack+hdres+liveaudio.sh
+cd $HOME/Downloads && curl -L https://goo.gl/UHXVg6 > install-quake3.sh && sh install-quake3.sh
 ```
 
 Tomará un par de minutos. Sólo esperar a que termine la instalación desde la línea de comandos.
@@ -17,7 +17,8 @@ _(Es probable que en algún momento te pida contraseña de usuario.)_
 ### Pre-requisitos 📋
 
 * MacOs.
-_ (Sólo probado en macOS Mojave)._
+
+_(Sólo probado en macOS Mojave)._
 
 ## Paquete incluye 🛠️
 
@@ -29,8 +30,6 @@ _ (Sólo probado en macOS Mojave)._
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
 * **Diego Ulloa** - [diegoulloao](https://github.com/diegoulloao)
 
 ## Licencia 📄
@@ -39,4 +38,4 @@ Libre para distribución, modificación y/o desarrollo.
 
 ---
 
-⌨️ Programación con ❤️ por [Diego Ulloa](https://github.com/diegoulloao) 😊
+⌨️ Programación con ❤️ por [Diego Ulloa](https://github.com/diegoulloao), Fan Quake3 😊
