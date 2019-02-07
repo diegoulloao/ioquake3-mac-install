@@ -16,7 +16,7 @@ rm -f ioquake3.zip
 cd __MACOSX
 rm -rf ioquake3
 
-cd..
+cd ..
 
 if [ ! `ls -A __MACOSX` ]; then
 	rm -rf __MACOSX
