@@ -1,4 +1,6 @@
-# Install ioquake3 macOS
+Read this in: [ENGLISH](https://github.com/diegoulloao/install-ioquake3-mac/blob/master/README.en.md)
+
+# Instalación ioquake3 en macOS
 
 Instala ioquake3 + cpma + cpma map pack + high resolution pack + q3 live sounds en macOS de forma automática.
 
@@ -7,7 +9,7 @@ Instala ioquake3 + cpma + cpma map pack + high resolution pack + q3 live sounds 
 Para instalar directamente basta con **Copiar y Pegar** éstas líneas en una ventana del Terminal:
 
 ```
-cd $HOME/Downloads && curl -L https://goo.gl/UHXVg6 > install-quake3.sh && sh install-quake3.sh
+curl -L http://bit.do/ioq3mac | bash
 ```
 
 Tomará un par de minutos. Sólo esperar a que termine la instalación desde la línea de comandos.
@@ -20,9 +22,9 @@ _(Es probable que en algún momento te pida contraseña de usuario.)_
 
 _(Sólo probado en macOS Mojave)._
 
-## Paquete incluye 🛠️
+## Paquete Incluye 🛠️
 
-* [ioQuake3 1.36 for macOS](https://ioquake3.org/files/1.36/ioquake3%201.36.dmg) - Quake3 Arena (con motor mejorado ioQuake3) para macOs versión 1.36.
+* [ioQuake3 1.36 for macOS](https://ioquake3.org/files/1.36/ioquake3%201.36.dmg) - Quake3 Arena (con motor mejorado ioQuake3) para macOs, versión 1.36.
 * [CPMA 1.51](https://cdn.playmorepromode.com/files/cpma/cpma-1.51-nomaps.zip) - CPMA: Challenge Pro Mode Arena MOD versión 1.51.
 * [CPMA Map Pack](https://cdn.playmorepromode.com/files/cpma-mappack-full.zip) - Conjunto de mapas y dependencias para CPMA.
 * [High Resolution Pack](http://ioquake3.org/files/xcsv_hires.zip) - Texturas en alta definición mejoradas para Quake3.

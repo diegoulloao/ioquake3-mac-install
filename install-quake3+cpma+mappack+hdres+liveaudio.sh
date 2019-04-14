@@ -6,7 +6,7 @@ set -e # exit on error
 
 cd /Applications
 
-echo "\nDescargando ioquake3 1.36...\n"
+echo "\nDownloading ioquake3 1.36...\n"
 
 # ioquake3
 curl -L https://www.dropbox.com/s/nhkiocsqgrb9jmk/ioquake3-1.36.zip?dl=1 > ioquake3.zip
@@ -36,7 +36,7 @@ fi
 
 cd baseq3
 
-echo "\nObteniendo Paquetes pak.pk3...\n"
+echo "\nGetting pak.pk3...\n"
 
 COUNT=0
 
@@ -45,27 +45,27 @@ while [ $COUNT -lt 9 ]; do
 	let COUNT+=1
 done
 
-echo "\nInstalando High Resolution Pack...\n"
+echo "\nInstalling High Resolution Pack...\n"
 # High Resolution Pack
 curl http://ioquake3.org/files/xcsv_hires.zip > xcsv_hires.zip
 unzip -a xcsv_hires.zip
 rm -f xcsv_hires.zip
 
-echo "\nInstalando Pack Extra Resoluciones...\n"
+echo "\nInstalling Pack Extra Resoluciones...\n"
 # Extra pack resolution
 curl -L https://www.dropbox.com/s/8hj5hbwyuxylc1c/pak9hqq37test20181106.pk3?dl=1 > pak9hqq37test20181106.pk3
 
-echo "\nInstalando CPMA Map-Pack...\n"
+echo "\nInstalling CPMA Map-Pack...\n"
 # CPMA map pack
 curl -L https://cdn.playmorepromode.com/files/cpma-mappack-full.zip > cpma-mappack-full.zip
 unzip -a -d . cpma-mappack-full.zip
 rm -f cpma-mappack-full.zip
 
-echo "\nInstalando Quake 3 Live Soundpack...\n"
+echo "\nInstalling Quake 3 Live Soundpack...\n"
 # Q3 live sounds pack
 curl -L https://www.dropbox.com/s/1m4031dnvywtlco/Quake%203%20Live%20Sounds.pk3?dl=1 > quake3-live-soundpack.pk3
 
-echo "\nInstalando CPMA Mod 1.51...\n"
+echo "\nInstalling CPMA Mod 1.51...\n"
 
 # CPMA MOD
 cd ..
@@ -73,4 +73,4 @@ curl https://cdn.playmorepromode.com/files/cpma/cpma-1.51-nomaps.zip > cpma.zip
 unzip -a cpma.zip
 rm -f cpma.zip
 
-echo "\nQuake 3 Arena: Instalación completada!\n"
+echo "\nQuake 3 Arena: Successful Installation.\nNow to kick asses!\n"
