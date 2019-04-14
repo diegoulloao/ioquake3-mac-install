@@ -9,7 +9,7 @@ Install ioquake3 + cpma + cpma map pack + high resolution pack + q3 live sounds 
 To install directly just Copy & Paste on Terminal:
 
 ```
-curl -L http://bit.do/ioq3mac | bash
+curl -L http://bit.do/ioq3mac | sh
 ```
 
 This take a few minutes. Just wait until complete.
