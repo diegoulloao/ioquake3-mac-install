@@ -1,4 +1,4 @@
-Read this in: [SPANISH](https://github.com/diegoulloao/install-ioquake3-mac/blob/master/README.md)
+Read this in: [SPANISH](https://github.com/diegoulloao/ioquake3-mac-install/blob/dev/README.md)
 
 # Install ioquake3 on macOS
 
@@ -9,7 +9,7 @@ Install ioquake3 + cpma + cpma map pack + high resolution pack + q3 live sounds 
 To install directly just Copy & Paste on Terminal:
 
 ```
-curl -L http://bit.do/ioq3mac | sh
+curl -L http://bit.do/ioq3mac-dev | sh
 ```
 
 This take a few minutes. Just wait until complete.
