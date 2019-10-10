@@ -13,7 +13,7 @@ Downloading ioquake3 1.36 ...
 \n"
 
 # ioquake3
-curl -L https://www.dropbox.com/s/nhkiocsqgrb9jmk/ioquake3-1.36.zip?dl=1 > ioquake3.zip
+curl -L https://www.dropbox.com/s/7e03ig0pchl9cw9/ioquake3-1.36-catalina.zip?dl=1 > ioquake3.zip
 
 echo "\n
 ++++++++++++++++++++++++++++++++++++++++++
