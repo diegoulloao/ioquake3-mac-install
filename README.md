@@ -18,9 +18,10 @@ _(Es probable que en algún momento te pida contraseña de usuario.)_
 
 ### Pre-requisitos 📋
 
-* MacOs.
+* macOS
+* Compatibilidad con macOS Catalina 10.5
 
-_(Sólo probado en macOS Mojave)._
+_(Sólo probado en macOS Mojave y Catalina)._
 
 ## Paquete Incluye 🛠️
 
@@ -31,7 +32,7 @@ _(Sólo probado en macOS Mojave)._
 * [Texturas complementarias HQ](https://www.dropbox.com/s/ggzmpkie69n22yb/extra-pack-resolution.pk3) - Texturas HQ complementarias para Quake3.
 * [Quake 3 Live Sounds Pack](https://www.dropbox.com/s/04t3mcqvpj2qenf/quake3-live-sounds.pk3) - Paquete con audios de Quake3 Live para Quake3 + audios del juego mejorados.
 
-## Autores ✒️
+## Programación ✒️
 
 * **Diego Ulloa** - [diegoulloao](https://github.com/diegoulloao)
 

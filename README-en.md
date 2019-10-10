@@ -18,9 +18,10 @@ _(Probably requires root permissions)_
 
 ### Pre Requirements 📋
 
-* MacOs.
+* macOS
+* Compability with macOS Catalina 10.5
 
-_(Only tested on macOS Mojave)._
+_(Only tested on macOS Mojave and Catalina)._
 
 ## Package Includes 🛠️
 
