@@ -128,24 +128,24 @@ echo "\n\n-> quake3 live soundpack installed. 	(6 of 7)"
 
 echo "\n
 ******************************************
-Downloading CPMA Mod 1.51 ...
+Downloading CPMA Mod 1.52 ...
 ******************************************
 \n"
 
 # CPMA MOD
 cd ..
-curl https://cdn.playmorepromode.com/files/cpma/cpma-1.51-nomaps.zip > cpma.zip
+curl https://cdn.playmorepromode.com/files/cpma/cpma-1.52-nomaps.zip > cpma.zip
 
 echo "\n
 ++++++++++++++++++++++++++++++++++++++++++
-Installing CPMA Mod 1.51 ...
+Installing CPMA Mod 1.52 ...
 ++++++++++++++++++++++++++++++++++++++++++
 \n"
 
 unzip -a cpma.zip
 rm -f cpma.zip
 
-echo "\n\n-> cpma mod 1.51 installed. 	(7 of 7)"
+echo "\n\n-> cpma mod 1.52 installed. 	(7 of 7)"
 
 echo "\n
 ---------------------------------------

@@ -25,7 +25,7 @@ _(Only tested on macOS Mojave)._
 ## Package Includes 🛠️
 
 * [ioQuake3 1.36 for macOS](https://ioquake3.org/files/1.36/ioquake3%201.36.dmg) - Quake3 Arena (with improved ioQuake3 engine) for macOs, v1.36.
-* [CPMA 1.51](https://cdn.playmorepromode.com/files/cpma/cpma-1.51-nomaps.zip) - CPMA: Challenge Pro Mode Arena MOD v1.51.
+* [CPMA 1.52](https://cdn.playmorepromode.com/files/cpma/cpma-1.52-nomaps.zip) - CPMA: Challenge Pro Mode Arena MOD v1.52.
 * [CPMA Map Pack](https://cdn.playmorepromode.com/files/cpma-mappack-full.zip) - Set of Maps and Dependencies for CPMA.
 * [High Resolution Pack](http://ioquake3.org/files/xcsv_hires.zip) - High Resolution Textures for Quake3.
 * [Texturas complementarias HQ](https://www.dropbox.com/s/8hj5hbwyuxylc1c/pak9hqq37test20181106.pk3?dl=1) - Complementary High Quality Textures for Quake3.
