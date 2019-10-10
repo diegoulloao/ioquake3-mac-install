@@ -13,7 +13,7 @@ Downloading ioquake3 1.36 ...
 \n"
 
 # ioquake3
-curl -L https://www.dropbox.com/s/7e03ig0pchl9cw9/ioquake3-1.36-catalina.zip?dl=1 > ioquake3.zip
+curl -L https://www.dropbox.com/s/337ahgwf2ldczwz/ioquake3-1.36-x64.zip?dl=1 > ioquake3.zip
 
 echo "\n
 ++++++++++++++++++++++++++++++++++++++++++
@@ -91,7 +91,7 @@ Downloading Extra Pack Resolutions ...
 \n"
 
 # Extra pack resolution
-curl -L https://www.dropbox.com/s/8hj5hbwyuxylc1c/pak9hqq37test20181106.pk3?dl=1 > pak9hqq37test20181106.pk3
+curl -L https://www.dropbox.com/s/ggzmpkie69n22yb/extra-pack-resolution.pk3?dl=1 > pak9hqq37test20181106.pk3
 
 echo "\n\n-> extra pack resolutions installed. 	(4 of 7)"
 
@@ -122,7 +122,7 @@ Downloading Quake3 Live Soundpack ...
 \n"
 
 # Q3 live sounds pack
-curl -L https://www.dropbox.com/s/1m4031dnvywtlco/Quake%203%20Live%20Sounds.pk3?dl=1 > quake3-live-soundpack.pk3
+curl -L https://www.dropbox.com/s/04t3mcqvpj2qenf/quake3-live-sounds.pk3?dl=1 > quake3-live-soundpack.pk3
 
 echo "\n\n-> quake3 live soundpack installed. 	(6 of 7)"
 

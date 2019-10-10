@@ -1,4 +1,4 @@
-Read this in: [ENGLISH](https://github.com/diegoulloao/ioquake3-mac-install/blob/dev/README.en.md)
+Read this in: [ENGLISH](https://github.com/diegoulloao/ioquake3-mac-install/blob/dev/README-en.md)
 
 # Instalación ioquake3 en macOS
 
