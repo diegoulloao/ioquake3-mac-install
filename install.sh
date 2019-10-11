@@ -16,7 +16,7 @@
 
 
 set -e # exit on error
-echo # break line from the command
+echo "\n" # break line from the command
 
 
 # VARIABLES
@@ -205,11 +205,11 @@ echo "\n\n-> cpma mod 1.52 installed. 	(7 of 7)"
 
 # Done.
 echo "\n
--------------------------------------------
+-----------------------------------------------
 	QUAKE 3 ARENA: INSTALLATION SUCCESSFUL.
--------------------------------------------
+-----------------------------------------------
 	Now to kick asses! ->
--------------------------------------------
+-----------------------------------------------
 
-follow on github: @diegoulloao :)
+-> follow on github: @diegoulloao :)
 \n"
