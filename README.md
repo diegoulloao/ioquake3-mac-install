@@ -1,4 +1,5 @@
 
+
 Read this in [spanish](https://github.com/diegoulloao/ioquake3-mac-install/blob/dev/README-es.md) (es)
 · · ·
 
@@ -6,11 +7,12 @@ Read this in [spanish](https://github.com/diegoulloao/ioquake3-mac-install/blob/
   <img src="https://github.com/diegoulloao/ioquake3-mac-install/raw/dev/logo.png" alt="ioQuake3 Arena"/>
 </p>
 
-# Install ioquake3 on macOS _(Catalina compatible)_
+# Install ioquake3 on macOS
+- [x] **Now Catalina compatible!**
 
 Install ioquake3 (64-bits) with improvements in just one command!
 
-## Installation 📦
+## Installation
 
 **Copy & paste directly on your Terminal:**
 
@@ -23,13 +25,19 @@ curl -L https://git.io/ioq3mac-dev | sh
 This could take a few minutes. Wait until complete ...
 **_( Probably requires root permissions )_**
 
-## Requirements 📋
+## For remove
+**Just run:**
+```
+rm -rf "$HOME/Library/Application Support/Quake3" /Applications/ioquake3
+```
 
-* _macOS_
+## Requirements
+
+* macOS (64-bits)
 
 **_( only tested on Mojave and Catalina versions )_**
 
-## Package Includes 🛠️
+## Package Includes
 
 * [ioQuake3 1.36 for macOS](https://github.com/diegoulloao/ioquake3-mac-install/raw/master/dependencies/ioquake3-1.36-x64.zip) - Quake3 Arena (with improved ioQuake3 engine) for macOS, v1.36
 * [CPMA 1.52](https://cdn.playmorepromode.com/files/cpma/cpma-1.52-nomaps.zip) - CPMA: Challenge Pro Mode Arena Mod, v1.52
@@ -38,7 +46,7 @@ This could take a few minutes. Wait until complete ...
 * [Complementary HQ Textures](https://github.com/diegoulloao/ioquake3-mac-install/raw/master/extras/extra-pack-resolution.pk3) - Complementary high quality textures for Quake3
 * [Quake 3 Live Sounds Pack](https://github.com/diegoulloao/ioquake3-mac-install/raw/master/extras/quake3-live-sounds.pk3) - Quake3 live audio + high quality sounds for Quake3
 
-## Troubleshooting :hankey:
+## Troubleshooting
 1. _**"ioquake3.app can't be opened because it is from an unidentified developer"**_
 
 	After receive this message **go to**:
@@ -48,17 +56,17 @@ This could take a few minutes. Wait until complete ...
 	
 	( Read more: [http://support.apple.com/kb/HT5290](http://support.apple.com/kb/HT5290) )
 
-## Programming ⌨️
+## Programming
 
 * **Diego Ulloa** - [@diegoulloao](https://github.com/diegoulloao)
 
-## Licence 📄
+## Licence
 
 **Open Source**
 
-## Contributors ✨
+## Contributors
 
-:sparkling_heart: Thanks goes to these wonderful people:
+Thanks goes to these wonderful people
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
@@ -70,8 +78,8 @@ This could take a few minutes. Wait until complete ...
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+You're great!
 
 ---
 
-⌨️ **Coded with ❤️ by [@diegoulloao](https://github.com/diegoulloao) # Quake3 Fan**
+**Developed by [@diegoulloao](https://github.com/diegoulloao)** | 2019.
