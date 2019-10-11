@@ -3,20 +3,20 @@
 
 
 #
-# 	Install ioquake3 on macOs (catalina compatible)
+# 	Install ioquake3 on macOs (Catalina compatible)
 # 	
 # 	Developer: Diego Ulloa [ @diegoullao ]
 # 	
 # 	Email: diegoulloao@icloud.com
 # 	Website: http://www.diegoulloa.cl/
 # 	
-# 	@version: 2
+# 	@version: 3
 # 
 
 
 
 set -e # exit on error
-echo "\n" # break line from the command
+
 
 
 # VARIABLES
