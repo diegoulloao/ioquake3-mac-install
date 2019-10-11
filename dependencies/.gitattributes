@@ -1,0 +1,4 @@
+ioquake3-1.36-x64.zip filter=lfs diff=lfs merge=lfs -text
+pak9hqq37test20181106.pk3 filter=lfs diff=lfs merge=lfs -text
+quake3-live-sounds.pk3 filter=lfs diff=lfs merge=lfs -text
+xcsv_bq3hi-res.pk3 filter=lfs diff=lfs merge=lfs -text
