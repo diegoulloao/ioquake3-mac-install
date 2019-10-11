@@ -206,10 +206,14 @@ echo "\n\n-> cpma mod 1.52 installed. 	(7 of 7)"
 # Done.
 echo "\n
 -----------------------------------------------
-	QUAKE 3 ARENA: INSTALLATION SUCCESSFUL.
+	QUAKE 3 ARENA: SUCCESSFUL INSTALLATION.
 -----------------------------------------------
 	Now to kick asses! ->
 -----------------------------------------------
 
 -> follow on github: @diegoulloao :)
 \n"
+
+
+
+# end
