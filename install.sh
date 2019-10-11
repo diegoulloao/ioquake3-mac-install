@@ -1,6 +1,7 @@
 #!/bin/bash
 
 
+
 #
 # 	Install ioquake3 on macOs (catalina compatible)
 # 	
@@ -13,8 +14,9 @@
 # 
 
 
-set -e # exit on error
 
+set -e # exit on error
+echo # break line from the command
 
 
 # VARIABLES
@@ -23,16 +25,14 @@ declare -r BRANCH="dev"
 
 
 # URL's: extras - dependencies
-# 
+
 # Repository
-# 
 declare -r ioquake3="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/ioquake3-1.36-x64.zip"
-declare -r pak="https://github.com/diegoulloao/ioquake3-mac-install/blob/$BRANCH/dependencies/baseq3/pak@.pk3"
+declare -r pak="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/baseq3/pak@.pk3"
 declare -r xpr="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/extras/extra-pack-resolution.pk3"
 declare -r q3_ls="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/extras/quake3-live-sounds.pk3"
 
 # External
-# 
 declare -r hi_res="http://ioquake3.org/files/xcsv_hires.zip"
 declare -r mappack="https://cdn.playmorepromode.com/files/cpma-mappack-full.zip"
 declare -r cpma="https://cdn.playmorepromode.com/files/cpma/cpma-1.52-nomaps.zip"
@@ -205,11 +205,11 @@ echo "\n\n-> cpma mod 1.52 installed. 	(7 of 7)"
 
 # Done.
 echo "\n
----------------------------------------
-QUAKE 3 ARENA: INSTALLATION SUCCESSFUL.
----------------------------------------
-Now to kick asses! ->
----------------------------------------
+-------------------------------------------
+	QUAKE 3 ARENA: INSTALLATION SUCCESSFUL.
+-------------------------------------------
+	Now to kick asses! ->
+-------------------------------------------
 
 follow on github: @diegoulloao :)
 \n"
