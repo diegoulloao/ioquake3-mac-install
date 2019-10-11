@@ -1,45 +1,45 @@
-Read this in: [ENGLISH](https://github.com/diegoulloao/ioquake3-mac-install/blob/dev/README-en.md)
+Read this in: [SPANISH](https://github.com/diegoulloao/ioquake3-mac-install/blob/dev/README-es.md)
 
-# Instalación ioquake3 en macOS
+# Install ioquake3 on macOS
 
-Instala ioquake3 + cpma + cpma map pack + high resolution pack + q3 live sounds en macOS de forma automática.
+Install ioquake3 + cpma + cpma map pack + high resolution pack + q3 live sounds in just one command.
 
-## Instalación 📦
+## Installation 📦
 
-Para instalar directamente basta con **Copiar y Pegar** éstas líneas en una ventana del Terminal:
+To install directly just Copy & Paste on Terminal:
 
 ```
 curl -L https://git.io/ioq3mac-dev | sh
 ```
 
-Tomará un par de minutos. Sólo esperar a que termine la instalación desde la línea de comandos.
+This take a few minutes. Just wait until complete.
 
-_(Es probable que en algún momento te pida contraseña de usuario.)_
+_(Probably requires root permissions)_
 
-### Pre-requisitos 📋
+### Pre Requirements 📋
 
 * macOS
-* Compatibilidad con macOS Catalina 10.5
+* Compability with macOS Catalina 10.5
 
-_(Sólo probado en macOS Mojave y Catalina)._
+_(Only tested on macOS Mojave and Catalina)._
 
-## Paquete Incluye 🛠️
+## Package Includes 🛠️
 
-* [ioQuake3 1.36 for macOS](https://www.dropbox.com/s/337ahgwf2ldczwz/ioquake3-1.36-x64.zip) - Quake3 Arena (con motor mejorado ioQuake3) para macOs, versión 1.36.
-* [CPMA 1.52](https://cdn.playmorepromode.com/files/cpma/cpma-1.52-nomaps.zip) - CPMA: Challenge Pro Mode Arena MOD versión 1.52.
-* [CPMA Map Pack](https://cdn.playmorepromode.com/files/cpma-mappack-full.zip) - Conjunto de mapas y dependencias para CPMA.
-* [High Resolution Pack](http://ioquake3.org/files/xcsv_hires.zip) - Texturas en alta definición mejoradas para Quake3.
-* [Texturas complementarias HQ](https://www.dropbox.com/s/ggzmpkie69n22yb/extra-pack-resolution.pk3) - Texturas HQ complementarias para Quake3.
-* [Quake 3 Live Sounds Pack](https://www.dropbox.com/s/04t3mcqvpj2qenf/quake3-live-sounds.pk3) - Paquete con audios de Quake3 Live para Quake3 + audios del juego mejorados.
+* [ioQuake3 1.36 for macOS](https://www.dropbox.com/s/337ahgwf2ldczwz/ioquake3-1.36-x64.zip) - Quake3 Arena (with improved ioQuake3 engine) for macOs, v1.36.
+* [CPMA 1.52](https://cdn.playmorepromode.com/files/cpma/cpma-1.52-nomaps.zip) - CPMA: Challenge Pro Mode Arena MOD v1.52.
+* [CPMA Map Pack](https://cdn.playmorepromode.com/files/cpma-mappack-full.zip) - Set of Maps and Dependencies for CPMA.
+* [High Resolution Pack](http://ioquake3.org/files/xcsv_hires.zip) - High Resolution Textures for Quake3.
+* [Texturas complementarias HQ](https://www.dropbox.com/s/ggzmpkie69n22yb/extra-pack-resolution.pk3) - Complementary High Quality Textures for Quake3.
+* [Quake 3 Live Sounds Pack](https://www.dropbox.com/s/04t3mcqvpj2qenf/quake3-live-sounds.pk3) - Quake3 Live Audio + High Quality Sounds for Quake3.
 
-## Programación ✒️
+## Programming ✒️
 
 * **Diego Ulloa** - [diegoulloao](https://github.com/diegoulloao)
 
-## Licencia 📄
+## Licence 📄
 
-Libre para distribución, modificación y/o desarrollo.
+Open Source. Free to distribute it modify it or develop with.
 
 ---
 
-⌨️ Programación con ❤️ por [Diego Ulloa](https://github.com/diegoulloao), Fan Quake3 😊
+⌨️ Code with ❤️ by [Diego Ulloa](https://github.com/diegoulloao), Quake3 Fan 😊
