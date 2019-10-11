@@ -2,6 +2,10 @@
 Read this in [spanish](https://github.com/diegoulloao/ioquake3-mac-install/blob/dev/README-es.md) (es)
 · · ·
 
+<p align="center">
+  <img src="https://github.com/diegoulloao/ioquake3-mac-install/raw/dev/logo.png" alt="ioQuake3 Arena"/>
+</p>
+
 # Install ioquake3 on macOS _(Catalina compatible)_
 
 Install ioquake3 (64-bits) with improvements in just one command!
