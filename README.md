@@ -1,3 +1,4 @@
+
 Read this in [spanish](https://github.com/diegoulloao/ioquake3-mac-install/blob/dev/README-es.md) (es)
 · · ·
 
@@ -51,22 +52,22 @@ This could take a few minutes. Wait until complete ...
 
 **Open Source**
 
----
-
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+:sparkling_heart: Thanks goes to these wonderful people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/bttd"><img src="https://avatars3.githubusercontent.com/u/45686509?v=4" width="100px;" alt="bttd"/><br /><sub><b>bttd</b></sub></a><br /><a href="https://github.com/diegoulloao/ioquake3-mac-install/commits?author=bttd" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/bttd"><img src="https://avatars3.githubusercontent.com/u/45686509?v=4" width="100px;" alt="bttd"/><br /><sub><b>bttd</b></sub></a><br /><a href="https://github.com/diegoulloao/ioquake3-mac-install/commits?author=bttd" title="Compiling">📎</a><a href="https://github.com/diegoulloao/ioquake3-mac-install/commits?author=bttd" title="Tests">⚠️</a></td>
   </tr>
 </table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+---
 
 ⌨️ **Coded with ❤️ by [@diegoulloao](https://github.com/diegoulloao) # Quake3 Fan**
