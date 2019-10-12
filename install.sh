@@ -102,8 +102,14 @@ echo "\n
 COUNT=0
 
 while [ $COUNT -lt 9 ]; do
-	curl ${pak/@/$COUNT} > pak$COUNT.pk3
+
+	[[ $COUNT > 0 ]] && echo "\n"
+	echo "Downloading and installing pak$COUNT.pk3 ..
+	\n"
+
+	curl -L ${pak/@/$COUNT} > pak$COUNT.pk3
 	let COUNT+=1
+
 done
 
 echo "\n\n-> pak.pk3 installed. 	(2 of 7)"
@@ -117,7 +123,7 @@ echo "\n
 **********************************************
 \n"
 
-curl $hi_res > xcsv_hires.zip
+curl -L $hi_res > xcsv_hires.zip
 
 echo "\n
 ++++++++++++++++++++++++++++++++++++++++++++++
@@ -188,7 +194,7 @@ echo "\n
 \n"
 
 cd ..
-curl $cpma > cpma.zip
+curl -L $cpma > cpma.zip
 
 echo "\n
 ++++++++++++++++++++++++++++++++++++++++++++++
