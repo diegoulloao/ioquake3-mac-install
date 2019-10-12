@@ -26,7 +26,7 @@ This could take a few minutes. Wait until complete ...
 ## For remove
 **Just run:**
 ```
-rm -rf "$HOME/Library/Application Support/Quake3" /Applications/ioquake3
+rm -rf "~/Library/Application Support/Quake3" /Applications/ioquake3
 ```
 
 ## Requirements
