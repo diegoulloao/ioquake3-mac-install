@@ -72,11 +72,14 @@ Thanks goes to these wonderful people
   <tr>
     <td align="center"><a href="https://github.com/bttd"><img src="https://avatars3.githubusercontent.com/u/45686509?v=4" width="100px;" alt="bttd"/><br /><sub><b>bttd</b></sub></a><br /><a href="https://github.com/diegoulloao/ioquake3-mac-install/commits?author=bttd" title="Compiling">📎</a><a href="https://github.com/diegoulloao/ioquake3-mac-install/commits?author=bttd" title="Tests">⚠️</a></td>
   </tr>
+  
+  <tr>
+    <td align="center"><a href="https://icculus.org/"><img src="https://avatars0.githubusercontent.com/u/673562?v=4" width="100px;" alt="Ryan C. Gordon"/><br /><sub><b>Ryan C. Gordon</b></sub></a><br /><a href="https://github.com/diegoulloao/ioquake3-mac-install/issues?q=author%3Arcgordon" title="Bug reports">🐛</a> <a href="https://github.com/diegoulloao/ioquake3-mac-install/commits?author=rcgordon" title="Code">💻</a></td>
+  </tr>
 </table>
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 You're great!
 
 ---
-
 **Developed by [@diegoulloao](https://github.com/diegoulloao)** | 2019.

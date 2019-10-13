@@ -6,6 +6,17 @@
   "commit": false,
   "contributors": [
     {
+      "login": "rcgordon",
+      "name": "Ryan C. Gordon",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/673562?v=4",
+      "profile": "https://icculus.org/",
+      "contributions": [
+        "bug",
+        "code"
+      ]
+    },
+    
+    {
       "login": "bttd",
       "name": "bttd",
       "avatar_url": "https://avatars3.githubusercontent.com/u/45686509?v=4",
