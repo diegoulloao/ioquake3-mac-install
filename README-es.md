@@ -38,6 +38,7 @@ Incluye además **muchas mejoras** como texturas de alta resolución, sonidos me
 
 ---
 _**Qué es el motor mejorado ioquake3?**_
+
 _Para más información acerca de este grandioso proyecto por favor visita:_
 
 _https://ioquake3.org/_
@@ -77,6 +78,7 @@ _https://ioquake3.org/_
 ## Programación
 
 **Diego Ulloa** - [@diegoulloao](https://github.com/diegoulloao)
+
 _Puedes visitar mi sitio web: http://www.diegoulloa.cl/_
 
 ## Licencia

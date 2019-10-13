@@ -39,6 +39,7 @@ This includes **a lot of improvements** like high quality textures, improved sou
 
 ---
 _**What is ioquake3 engine?**_
+
 _For more information about this amazing project please visit:_
 
 _https://ioquake3.org/_
@@ -78,6 +79,7 @@ _https://ioquake3.org/_
 ## Programming
 
 **Diego Ulloa** - [@diegoulloao](https://github.com/diegoulloao)
+
 _You can visit my website: http://www.diegoulloa.cl/_
 
 ## Licence
