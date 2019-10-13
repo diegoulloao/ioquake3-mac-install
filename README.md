@@ -22,6 +22,7 @@ curl -L https://git.io/ioq3mac-dev | sh
 **Ready!**
 
 This could take a few minutes. Wait until complete ...
+
 **_( Probably requires root permissions )_**
 
 ## For remove
@@ -40,7 +41,7 @@ This includes **a lot of improvements** like high quality textures, improved sou
 ---
 _**What is ioquake3 engine?**_
 
-_For more information about this amazing project please visit:_
+_For more information about this amazing project, please visit:_
 
 _https://ioquake3.org/_
 

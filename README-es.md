@@ -21,6 +21,7 @@ curl -L https://git.io/ioq3mac-dev | sh
 **Listo!**
 
 Sólo tomará unos minutos. Espera hasta que el proceso se complete ...
+
 **_( Probablemente requiera permisos de administrador)_**
 
 ## Para remover
@@ -32,14 +33,14 @@ rm -rf ~/Library/Application\ Support/Quake3 /Applications/ioquake3
 ## De qué se trata?
 **"ioquake3 mac install"** pretende ser **la solución unificada y más simple** de instalar quake 3 arena (con motor ioquake3 mejorado) en computadoras mac.
 
-Incluye además **muchas mejoras** como texturas de alta resolución, sonidos mejorados, mods más conocidos, etc.
+Incluye además **cantidad de mejoras** como texturas de alta resolución, sonidos mejorados, mods más conocidos, etc.
 
 **Y puedes tenerlo funcionando con un solo comando!**
 
 ---
-_**Qué es el motor mejorado ioquake3?**_
+_**Qué es el motor ioquake3 mejorado?**_
 
-_Para más información acerca de este grandioso proyecto por favor visita:_
+_Para más información acerca de este grandioso proyecto, por favor visita:_
 
 _https://ioquake3.org/_
 
@@ -54,7 +55,7 @@ _https://ioquake3.org/_
 ## Contenido paquete
 
 * [ioQuake3 1.36 for macOS](https://github.com/diegoulloao/ioquake3-mac-install/raw/master/dependencies/ioquake3-1.36-x64.zip) - Quake3 Arena (con motor ioquake3 mejorado) for macOS, v1.36
-* [ioQuake3 latest pk3 files](https://github.com/diegoulloao/ioquake3-mac-install/tree/master/dependencies/baseq3) - Últimos archivos pk3 distribuídos por ioQuake3 (point release patches)
+* [ioQuake3 latest pk3 files](https://github.com/diegoulloao/ioquake3-mac-install/tree/master/dependencies/baseq3) - Últimos archivos pk3 distribuidos por ioQuake3 (point release patches)
 * [CPMA 1.52](https://cdn.playmorepromode.com/files/cpma/cpma-1.52-nomaps.zip) - CPMA: Challenge Pro Mode Arena Mod, v1.52
 * [CPMA Map Pack](https://cdn.playmorepromode.com/files/cpma-mappack-full.zip) - Conjunto de mapas y dependencias para CPMA
 * [High Resolution Pack](http://ioquake3.org/files/xcsv_hires.zip) - Texturas de alta resolución
