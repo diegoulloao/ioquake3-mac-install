@@ -15,7 +15,7 @@
 
 
 
-set -e # exit on error
+set -e		# exit on error
 
 
 
@@ -112,7 +112,7 @@ while [ $COUNT -lt 5 ] ; do
 	fi
 
 	[[ $COUNT > 0 ]] && echo "\n"
-	echo "Downloading pak0.pk3 by parts (pk0.$ext) ..
+	echo "\tDownloading pk0.$ext -> pak0.pk3 ...
 	\n"
 
 	curl -L ${pak0/@/$ext} > pak0.$ext
@@ -121,11 +121,11 @@ while [ $COUNT -lt 5 ] ; do
 done
 
 echo "\n
-Installing pak0.pk3 ..
+	Installing pak0.pk3 ...
 \n"
 
 cat pak0.z01 pak0.z02 pak0.z03 pak0.z04 pak0.zip > pak0-master.zip
-unzip -a -o pak0-master.zip
+unzip -a -o pak0-master.zip || true		# or true prevents "exit on error" because set -e
 
 rm -f pak0.z01
 rm -f pak0.z02
@@ -141,7 +141,7 @@ COUNT=1
 while [ $COUNT -lt 9 ] ; do
 
 	echo "\n
-	Downloading and installing pak$COUNT.pk3 ..
+	Downloading and installing pak$COUNT.pk3 ...
 	\n"
 
 	curl -L ${pak/@/$COUNT} > pak$COUNT.pk3
@@ -168,7 +168,7 @@ echo "\n
 ++++++++++++++++++++++++++++++++++++++++++++++
 \n"
 
-unzip -a xcsv_hires.zip
+unzip -a -o xcsv_hires.zip
 rm -f xcsv_hires.zip
 
 echo "\n\n-> high resolution pack installed. 	(3 of 7)"
@@ -203,7 +203,7 @@ echo "\n
 ++++++++++++++++++++++++++++++++++++++++++++++
 \n"
 
-unzip -a -d . cpma-mappack-full.zip
+unzip -a -o -d . cpma-mappack-full.zip
 rm -f cpma-mappack-full.zip
 
 echo "\n\n-> cpma map-pack installed. 	(5 of 7)"
@@ -239,7 +239,7 @@ echo "\n
 ++++++++++++++++++++++++++++++++++++++++++++++
 \n"
 
-unzip -a cpma.zip
+unzip -a -o cpma.zip
 rm -f cpma.zip
 
 echo "\n\n-> cpma mod 1.52 installed. 	(7 of 7)"
