@@ -1,4 +1,5 @@
 Read this in: [ENGLISH](https://github.com/diegoulloao/install-ioquake3-mac/blob/master/README.en.md)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 # Instalación ioquake3 en macOS
 
@@ -42,3 +43,19 @@ Libre para distribución, modificación y/o desarrollo.
 ---
 
 ⌨️ Programación con ❤️ por [Diego Ulloa](https://github.com/diegoulloao), Fan Quake3 😊
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://icculus.org/"><img src="https://avatars0.githubusercontent.com/u/673562?v=4" width="100px;" alt="Ryan C. Gordon"/><br /><sub><b>Ryan C. Gordon</b></sub></a><br /><a href="https://github.com/diegoulloao/ioquake3-mac-install/issues?q=author%3Arcgordon" title="Bug reports">🐛</a> <a href="https://github.com/diegoulloao/ioquake3-mac-install/commits?author=rcgordon" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
