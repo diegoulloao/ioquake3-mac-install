@@ -8,7 +8,7 @@ Leer esto en [inglés](https://github.com/diegoulloao/ioquake3-mac-install/blob/
 # Instala ioquake3 en macOS
 - [x] **Ahora compatibilidad con Catalina!**
 
-Instala ioquake3 (64-bits) más mejoras con un solo comando!
+### - **Instala ioquake3 (64-bits) más mejoras con un solo comando!**
 
 ## Instalación
 
@@ -29,15 +29,31 @@ Sólo tomará unos minutos. Espera hasta que el proceso se complete ...
 rm -rf ~/Library/Application\ Support/Quake3 /Applications/ioquake3
 ```
 
+## De qué se trata?
+**"ioquake3 mac install"** pretende ser **la solución unificada y más simple** de instalar quake 3 arena (con motor ioquake3 mejorado) en computadoras mac.
+
+Incluye además **muchas mejoras** como texturas de alta resolución, sonidos mejorados, mods más conocidos, etc.
+
+**Y puedes tenerlo funcionando con un solo comando!**
+
+---
+_**Qué es el motor mejorado ioquake3?**_
+_Para más información acerca de este grandioso proyecto por favor visita:_
+
+_https://ioquake3.org/_
+
+---
+
 ## Requerimientos
 
 * macOS (64-bits)
 
-**_(sólo probado en Mojave y Catalina)_**
+**_( sólo probado en Mojave y Catalina )_**
 
 ## Contenido paquete
 
 * [ioQuake3 1.36 for macOS](https://github.com/diegoulloao/ioquake3-mac-install/raw/master/dependencies/ioquake3-1.36-x64.zip) - Quake3 Arena (con motor ioquake3 mejorado) for macOS, v1.36
+* [ioQuake3 latest pk3 files](https://github.com/diegoulloao/ioquake3-mac-install/tree/master/dependencies/baseq3) - Últimos archivos pk3 distribuídos por ioQuake3 (point release patches)
 * [CPMA 1.52](https://cdn.playmorepromode.com/files/cpma/cpma-1.52-nomaps.zip) - CPMA: Challenge Pro Mode Arena Mod, v1.52
 * [CPMA Map Pack](https://cdn.playmorepromode.com/files/cpma-mappack-full.zip) - Conjunto de mapas y dependencias para CPMA
 * [High Resolution Pack](http://ioquake3.org/files/xcsv_hires.zip) - Texturas de alta resolución
@@ -54,9 +70,14 @@ rm -rf ~/Library/Application\ Support/Quake3 /Applications/ioquake3
 	
 	( Leer más: [http://support.apple.com/kb/HT5290](http://support.apple.com/kb/HT5290) )
 
+## Notas de la versión
+- Corrige # [macOS Catalina: Only bottom left quarter of the screen is used by the game](https://github.com/ioquake/ioq3/issues/422)
+- Corrige # [Mac OS X: App not 64-bit optimized for Mac OS Catalina?](https://github.com/ioquake/ioq3/issues/418)
+
 ## Programación
 
-* **Diego Ulloa** - [@diegoulloao](https://github.com/diegoulloao)
+**Diego Ulloa** - [@diegoulloao](https://github.com/diegoulloao)
+_Puedes visitar mi sitio web: http://www.diegoulloa.cl/_
 
 ## Licencia
 
@@ -64,22 +85,19 @@ rm -rf ~/Library/Application\ Support/Quake3 /Applications/ioquake3
 
 ## Contribuidores
 
-Gracias a estas personas maravillosas
+**Gracias a estas personas maravillosas!**
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 <table>
   <tr>
     <td align="center"><a href="https://github.com/bttd"><img src="https://avatars3.githubusercontent.com/u/45686509?v=4" width="100px;" alt="bttd"/><br /><sub><b>bttd</b></sub></a><br /><a href="https://github.com/diegoulloao/ioquake3-mac-install/commits?author=bttd" title="Compiling">📎</a><a href="https://github.com/diegoulloao/ioquake3-mac-install/commits?author=bttd" title="Tests">⚠️</a></td>
-  </tr>
-  
-  <tr>
     <td align="center"><a href="https://icculus.org/"><img src="https://avatars0.githubusercontent.com/u/673562?v=4" width="100px;" alt="Ryan C. Gordon"/><br /><sub><b>Ryan C. Gordon</b></sub></a><br /><a href="https://github.com/diegoulloao/ioquake3-mac-install/issues?q=author%3Arcgordon" title="Bug reports">🐛</a> <a href="https://github.com/diegoulloao/ioquake3-mac-install/commits?author=rcgordon" title="Code">💻</a></td>
   </tr>
 </table>
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-Son geniales!
+**Son geniales.**
 
 ---
 
