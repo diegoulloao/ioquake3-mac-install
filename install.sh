@@ -30,6 +30,8 @@ declare -r BRANCH="dev"
 declare -r ioquake3="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/ioquake3-1.36-x64.zip"
 declare -r pak0="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/baseq3/pak0/pak0.@"
 declare -r pak="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/baseq3/pak@.pk3"
+declare -r cd_key="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/baseq3/q3key"
+
 declare -r xpr="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/extras/extra-pack-resolution.pk3"
 declare -r q3_ls="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/extras/quake3-live-sounds.pk3"
 
@@ -72,7 +74,7 @@ if [ ! `ls -A __MACOSX` ]; then
 	rm -rf __MACOSX
 fi
 
-echo "\n\n-> ioquake 1.36 installed. 	(1 of 7)"
+echo "\n\n-> ioquake 1.36 installed. 	(1 of 8)"
 
 
 
@@ -149,7 +151,7 @@ while [ $COUNT -lt 9 ] ; do
 
 done
 
-echo "\n\n-> pak.pk3 installed. 	(2 of 7)"
+echo "\n\n-> pak.pk3 installed. 	(2 of 8)"
 
 
 
@@ -171,7 +173,7 @@ echo "\n
 unzip -a -o xcsv_hires.zip
 rm -f xcsv_hires.zip
 
-echo "\n\n-> high resolution pack installed. 	(3 of 7)"
+echo "\n\n-> high resolution pack installed. 	(3 of 8)"
 
 
 
@@ -184,7 +186,7 @@ echo "\n
 
 curl -L $xpr > pak9hqq37test20181106.pk3
 
-echo "\n\n-> extra pack resolutions installed. 	(4 of 7)"
+echo "\n\n-> extra pack resolutions installed. 	(4 of 8)"
 
 
 
@@ -206,7 +208,7 @@ echo "\n
 unzip -a -o -d . cpma-mappack-full.zip
 rm -f cpma-mappack-full.zip
 
-echo "\n\n-> cpma map-pack installed. 	(5 of 7)"
+echo "\n\n-> cpma map-pack installed. 	(5 of 8)"
 
 
 
@@ -219,7 +221,7 @@ echo "\n
 
 curl -L $q3_ls > quake3-live-soundpack.pk3
 
-echo "\n\n-> quake3 live soundpack installed. 	(6 of 7)"
+echo "\n\n-> quake3 live soundpack installed. 	(6 of 8)"
 
 
 
@@ -242,7 +244,22 @@ echo "\n
 unzip -a -o cpma.zip
 rm -f cpma.zip
 
-echo "\n\n-> cpma mod 1.52 installed. 	(7 of 7)"
+echo "\n\n-> cpma mod 1.52 installed. 	(7 of 8)"
+
+
+
+# cd-key
+echo "\n
+**********************************************
+	Downloading and installing cd-key ...
+**********************************************
+\n"
+
+cd baseq3
+
+curl -L $cd_key > q3key
+
+echo "\n\n-> cd-key installed. 	(8 of 8)"
 
 
 
