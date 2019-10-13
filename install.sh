@@ -28,6 +28,7 @@ declare -r BRANCH="dev"
 
 # Repository
 declare -r ioquake3="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/ioquake3-1.36-x64.zip"
+declare -r pak0="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/baseq3/pak0.@"
 declare -r pak="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/baseq3/pak@.pk3"
 declare -r xpr="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/extras/extra-pack-resolution.pk3"
 declare -r q3_ls="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/extras/quake3-live-sounds.pk3"
@@ -92,19 +93,55 @@ cd baseq3
 
 
 
-# pak[0-8].pk3
+# gets pak.pk3 files
 echo "\n
 **********************************************
 	Getting pak.pk3 ...
 **********************************************
 \n"
 
+# pak0.pk3 compressed by parts
 COUNT=0
 
-while [ $COUNT -lt 9 ]; do
+while [ $COUNT -lt 5 ] ; do
+
+	if [[ $COUNT == 0 ]] ; then
+		ext="zip"
+	else
+		ext="z0$COUNT"
+	fi
 
 	[[ $COUNT > 0 ]] && echo "\n"
-	echo "Downloading and installing pak$COUNT.pk3 ..
+	echo "Downloading pak0.pk3 by parts (pk0.$ext) ..
+	\n"
+
+	curl -L ${pak0/@/$ext} > pak0.$ext
+	let COUNT+=1
+
+done
+
+echo "\n
+Installing pak0.pk3 ..
+\n"
+
+cat pak0.z01 pak0.z02 pak0.z03 pak0.z04 pak0.zip > pak0-master.zip
+unzip -a -o pak0-master.zip
+
+rm -f pak0.z01
+rm -f pak0.z02
+rm -f pak0.z03
+rm -f pak0.z04
+rm -f pak0.zip
+
+rm -f pak0-master.zip
+
+# pak[1-8].pk3
+COUNT=1
+
+while [ $COUNT -lt 9 ] ; do
+
+	echo "\n
+	Downloading and installing pak$COUNT.pk3 ..
 	\n"
 
 	curl -L ${pak/@/$COUNT} > pak$COUNT.pk3
