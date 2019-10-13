@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "rcgordon",
+      "name": "Ryan C. Gordon",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/673562?v=4",
+      "profile": "https://icculus.org/",
+      "contributions": [
+        "bug",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "ioquake3-mac-install",
+  "projectOwner": "diegoulloao",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
