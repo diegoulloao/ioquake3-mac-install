@@ -1,5 +1,6 @@
 
 
+
 Read this in [spanish](https://github.com/diegoulloao/ioquake3-mac-install/blob/dev/README-es.md) (es)
 · · ·
 
@@ -89,7 +90,8 @@ _You can visit my website: http://www.diegoulloa.cl/_
 
 ## Licence
 
-**Open Source**
+**GNU GPLv3**
+Read the [LICENSE](https://github.com/diegoulloao/ioquake3-mac-install/blob/master/LICENSE)
 
 ## Contributors
 

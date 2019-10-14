@@ -87,7 +87,8 @@ _Puedes visitar mi sitio web: http://www.diegoulloa.cl/_
 
 ## Licencia
 
-**Código Abierto**
+**GNU GPLv3**
+Lee la [LICENCIA](https://github.com/diegoulloao/ioquake3-mac-install/blob/master/LICENSE)
 
 ## Contribuidores
 
