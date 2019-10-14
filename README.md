@@ -76,7 +76,7 @@ _https://ioquake3.org/_
 	( Read more: [http://support.apple.com/kb/HT5290](http://support.apple.com/kb/HT5290) )
 
 ## Information for developers
-The ioquake3.app here included was compiled **directly from [ioquake3 source code](https://github.com/ioquake/ioq3)** repository. This version includes **commits to date _Aug 23, 2019_**: ["Create Funding.yml"](https://github.com/ioquake/ioq3/commit/4d82b8b5257675b8010cd59a203d713c33640046).
+The ioquake3.app here included was compiled **directly from [ioquake3 source code](https://github.com/ioquake/ioq3)** repository. This version includes **commits to date _Aug 23, 2019_**: ["Create Funding.yml"](https://github.com/ioquake/ioq3/commit/4d82b8b5257675b8010cd59a203d713c33640046)
 
 ## Changelog
 - Fix # [macOS Catalina: Only bottom left quarter of the screen is used by the game](https://github.com/ioquake/ioq3/issues/422)
@@ -91,6 +91,7 @@ _You can visit my website: http://www.diegoulloa.cl/_
 ## Licence
 
 **GNU GPLv3**
+
 Read the [LICENSE](https://github.com/diegoulloao/ioquake3-mac-install/blob/master/LICENSE)
 
 ## Contributors
