@@ -72,6 +72,9 @@ _https://ioquake3.org/_
 	
 	( Leer más: [http://support.apple.com/kb/HT5290](http://support.apple.com/kb/HT5290) )
 
+## Información para los desarrolladores
+La aplicación ioquake3.app aquí incluída fue compilada **directamente del repositorio [ioquake3 source code](https://github.com/ioquake/ioq3)**. Esta versión incluye **commits hasta la fecha _Aug 23, 2019_**: ["Create Funding.yml"](https://github.com/ioquake/ioq3/commit/4d82b8b5257675b8010cd59a203d713c33640046).
+
 ## Notas de la versión
 - Corrige # [macOS Catalina: Only bottom left quarter of the screen is used by the game](https://github.com/ioquake/ioq3/issues/422)
 - Corrige # [Mac OS X: App not 64-bit optimized for Mac OS Catalina?](https://github.com/ioquake/ioq3/issues/418)
