@@ -1,44 +1,111 @@
-Read this in: [ENGLISH](https://github.com/diegoulloao/install-ioquake3-mac/blob/master/README.en.md)
+Lee esto en [español](https://github.com/diegoulloao/ioquake3-mac-install/blob/master/README-es.md) (es)
+· · ·
 
-# Instalación ioquake3 en macOS
+<p align="center">
+  <img src="https://github.com/diegoulloao/ioquake3-mac-install/raw/dev/logo.png" alt="ioQuake3 Arena"/>
+</p>
 
-Instala ioquake3 + cpma + cpma map pack + high resolution pack + q3 live sounds en macOS de forma automática.
+# Install ioquake3 on macOS
+- [x] **Now Catalina compatible!**
 
-## Instalación 📦
+### - **Install ioquake3 (64-bits) with improvements in just one command!**
 
-Para instalar directamente basta con **Copiar y Pegar** éstas líneas en una ventana del Terminal:
+## Installation
+
+**Copy & paste directly on your Terminal:**
 
 ```
-curl -L http://bit.do/ioq3mac | sh
+curl -L https://git.io/ioq3mac | sh
 ```
 
-Tomará un par de minutos. Sólo esperar a que termine la instalación desde la línea de comandos.
+**Ready!**
 
-_(Es probable que en algún momento te pida contraseña de usuario.)_
+This could take a few minutes. Wait until complete ...
 
-### Pre-requisitos 📋
+**_( Probably requires root permissions )_**
 
-* MacOs.
+## For remove
+**Just run:**
+```
+rm -rf ~/Library/Application\ Support/Quake3 /Applications/ioquake3
+```
 
-_(Sólo probado en macOS Mojave)._
+## What is this?
+**"ioquake3 mac install"** pretends to be **the one unified and most simply way** to install quake 3 arena (with improved ioquake3 engine) on mac computers.
 
-## Paquete Incluye 🛠️
+This includes **a lot of improvements** like high quality textures, improved sounds, most knowed mods, etc.
 
-* [ioQuake3 1.36 for macOS](https://ioquake3.org/files/1.36/ioquake3%201.36.dmg) - Quake3 Arena (con motor mejorado ioQuake3) para macOs, versión 1.36.
-* [CPMA 1.51](https://cdn.playmorepromode.com/files/cpma/cpma-1.51-nomaps.zip) - CPMA: Challenge Pro Mode Arena MOD versión 1.51.
-* [CPMA Map Pack](https://cdn.playmorepromode.com/files/cpma-mappack-full.zip) - Conjunto de mapas y dependencias para CPMA.
-* [High Resolution Pack](http://ioquake3.org/files/xcsv_hires.zip) - Texturas en alta definición mejoradas para Quake3.
-* [Texturas complementarias HQ](https://www.dropbox.com/s/8hj5hbwyuxylc1c/pak9hqq37test20181106.pk3?dl=1) - Texturas HQ complementarias para Quake3.
-* [Quake 3 Live Sounds Pack](https://www.dropbox.com/s/1m4031dnvywtlco/Quake%203%20Live%20Sounds.pk3?dl=1) - Paquete con audios de Quake3 Live para Quake3 + audios del juego mejorados.
+**And you can get it working with just one command!**
 
-## Autores ✒️
+---
+_**What is ioquake3 engine?**_
 
-* **Diego Ulloa** - [diegoulloao](https://github.com/diegoulloao)
+_For more information about this amazing project, please visit:_
 
-## Licencia 📄
-
-Libre para distribución, modificación y/o desarrollo.
+_https://ioquake3.org/_
 
 ---
 
-⌨️ Programación con ❤️ por [Diego Ulloa](https://github.com/diegoulloao), Fan Quake3 😊
+## Requirements
+
+* macOS (64-bits)
+
+**_( only tested on Mojave and Catalina versions )_**
+
+## Package Includes
+
+* [ioQuake3 1.36 for macOS](https://github.com/diegoulloao/ioquake3-mac-install/raw/master/dependencies/ioquake3-1.36-x64.zip) - Quake3 Arena (with improved ioquake3 engine) for macOS, v1.36
+* [ioQuake3 latest pk3 files](https://github.com/diegoulloao/ioquake3-mac-install/tree/master/dependencies/baseq3) - ioQuake3 latest pk3 files (point release patches)
+* [CPMA 1.52](https://cdn.playmorepromode.com/files/cpma/cpma-1.52-nomaps.zip) - CPMA: Challenge Pro Mode Arena Mod, v1.52
+* [CPMA Map Pack](https://cdn.playmorepromode.com/files/cpma-mappack-full.zip) - Set of maps and dependencies for CPMA
+* [High Resolution Pack](http://ioquake3.org/files/xcsv_hires.zip) - High resolution textures for Quake3
+* [Complementary HQ Textures](https://github.com/diegoulloao/ioquake3-mac-install/raw/master/extras/extra-pack-resolution.pk3) - Complementary high quality textures for Quake3
+* [Quake 3 Live Sounds Pack](https://github.com/diegoulloao/ioquake3-mac-install/raw/master/extras/quake3-live-sounds.pk3) - Quake3 live audio + high quality sounds for Quake3
+
+## Troubleshooting
+1. _**"ioquake3.app can't be opened because it is from an unidentified developer"**_
+
+	After receive this message **go to**:
+	**_System Preferences > Security & Privacy Settings_**
+	
+	**Click** the button: **"_Open Anyway_"**
+	
+	( Read more: [http://support.apple.com/kb/HT5290](http://support.apple.com/kb/HT5290) )
+
+## Information for developers
+The ioquake3.app here included was compiled **directly from [ioquake3 source code](https://github.com/ioquake/ioq3)** repository. This version includes **commits to date _Aug 23, 2019_**: ["Create Funding.yml"](https://github.com/ioquake/ioq3/commit/4d82b8b5257675b8010cd59a203d713c33640046)
+
+## Changelog
+- Fix # [macOS Catalina: Only bottom left quarter of the screen is used by the game](https://github.com/ioquake/ioq3/issues/422)
+- Fix # [Mac OS X: App not 64-bit optimized for Mac OS Catalina?](https://github.com/ioquake/ioq3/issues/418)
+
+## Programming
+
+**Diego Ulloa** - [@diegoulloao](https://github.com/diegoulloao)
+
+_You can visit my website: http://www.diegoulloa.cl/_
+
+## Licence
+
+**GNU GPLv3**
+
+Read the [LICENSE](https://github.com/diegoulloao/ioquake3-mac-install/blob/master/LICENSE)
+
+## Contributors
+
+**Thanks goes to these wonderful people!**
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/bttd"><img src="https://avatars3.githubusercontent.com/u/45686509?v=4" width="100px;" alt="bttd"/><br /><sub><b>bttd</b></sub></a><br /><a href="https://github.com/diegoulloao/ioquake3-mac-install/commits?author=bttd" title="Compiling">📎</a><a href="https://github.com/diegoulloao/ioquake3-mac-install/commits?author=bttd" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://icculus.org/"><img src="https://avatars0.githubusercontent.com/u/673562?v=4" width="100px;" alt="Ryan C. Gordon"/><br /><sub><b>Ryan C. Gordon</b></sub></a><br /><a href="https://github.com/diegoulloao/ioquake3-mac-install/issues?q=author%3Arcgordon" title="Bug reports">🐛</a> <a href="https://github.com/diegoulloao/ioquake3-mac-install/commits?author=rcgordon" title="Code">💻</a></td>
+  </tr>
+</table>
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+**You're great.**
+
+---
+**Developed by [@diegoulloao](https://github.com/diegoulloao)** | 2019.
