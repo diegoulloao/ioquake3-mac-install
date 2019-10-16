@@ -61,6 +61,7 @@ _https://ioquake3.org/_
 * [High Resolution Pack](http://ioquake3.org/files/xcsv_hires.zip) - High resolution textures for Quake3
 * [Complementary HQ Textures](https://github.com/diegoulloao/ioquake3-mac-install/raw/master/extras/extra-pack-resolution.pk3) - Complementary high quality textures for Quake3
 * [Quake 3 Live Sounds Pack](https://github.com/diegoulloao/ioquake3-mac-install/raw/master/extras/quake3-live-sounds.pk3) - Quake3 live audio + high quality sounds for Quake3
+* [(new) Quake 3 HD Weapons](https://github.com/diegoulloao/ioquake3-mac-install/raw/master/extras/hd-weapons.pk3) - Quake3 new 2019 weapons re-textures
 
 ## Troubleshooting
 1. _**"ioquake3.app can't be opened because it is from an unidentified developer"**_
