@@ -1,4 +1,4 @@
-Leer esto en [inglés](https://github.com/diegoulloao/ioquake3-mac-install/blob/dev/README.md) (en)
+Read this in [english](https://github.com/diegoulloao/ioquake3-mac-install/blob/dev/README.md) (en)
 · · ·
 
 <p align="center">
@@ -54,13 +54,14 @@ _https://ioquake3.org/_
 
 ## Contenido paquete
 
-* [ioQuake3 1.36 for macOS](https://github.com/diegoulloao/ioquake3-mac-install/raw/master/dependencies/ioquake3-1.36-x64.zip) - Quake3 Arena (con motor ioquake3 mejorado) for macOS, v1.36
-* [ioQuake3 latest pk3 files](https://github.com/diegoulloao/ioquake3-mac-install/tree/master/dependencies/baseq3) - Últimos archivos pk3 distribuidos por ioQuake3 (point release patches)
+* [ioQuake3 1.36 for macOS](https://github.com/diegoulloao/ioquake3-mac-install/raw/dev/dependencies/ioquake3-1.36-x64.zip) - Quake3 Arena (con motor ioquake3 mejorado) for macOS, v1.36
+* [ioQuake3 latest pk3 files](https://github.com/diegoulloao/ioquake3-mac-install/tree/dev/dependencies/baseq3) - Últimos archivos pk3 distribuidos por ioQuake3 (point release patches)
 * [CPMA 1.52](https://cdn.playmorepromode.com/files/cpma/cpma-1.52-nomaps.zip) - CPMA: Challenge Pro Mode Arena Mod, v1.52
 * [CPMA Map Pack](https://cdn.playmorepromode.com/files/cpma-mappack-full.zip) - Conjunto de mapas y dependencias para CPMA
 * [High Resolution Pack](http://ioquake3.org/files/xcsv_hires.zip) - Texturas de alta resolución
-* [Complementary HQ Textures](https://github.com/diegoulloao/ioquake3-mac-install/raw/master/extras/extra-pack-resolution.pk3) - Texturas complementarias de alta resolución
-* [Quake 3 Live Sounds Pack](https://github.com/diegoulloao/ioquake3-mac-install/raw/master/extras/quake3-live-sounds.pk3) - Quake3 live audio + sonidos en alta calidad
+* [Complementary HQ Textures](https://github.com/diegoulloao/ioquake3-mac-install/raw/dev/extras/extra-pack-resolution.pk3) - Texturas complementarias de alta resolución
+* [Quake 3 Live Sounds Pack](https://github.com/diegoulloao/ioquake3-mac-install/raw/dev/extras/quake3-live-sounds.pk3) - Quake3 live audio + sonidos en alta calidad
+* [(nuevo) Quake 3 HD Weapons](https://github.com/diegoulloao/ioquake3-mac-install/raw/dev/extras/hd-weapons.pk3) - Quake3 nuevas armas re-texturizadas 2019
 
 ## Problemas frecuentes
 1. _**"ioquake3.app no se puede abrir porque proviene de un desarrollador no indentificado"**_
@@ -89,7 +90,7 @@ _Puedes visitar mi sitio web: http://www.diegoulloa.cl/_
 
 **GNU GPLv3**
 
-Lee la [LICENCIA](https://github.com/diegoulloao/ioquake3-mac-install/blob/master/LICENSE)
+Lee la [LICENCIA](https://github.com/diegoulloao/ioquake3-mac-install/blob/dev/LICENSE)
 
 ## Contribuidores
 
