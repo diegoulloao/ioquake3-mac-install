@@ -2,7 +2,7 @@ Read this in [english](https://github.com/diegoulloao/ioquake3-mac-install/blob/
 · · ·
 
 <p align="center">
-  <img src="https://github.com/diegoulloao/ioquake3-mac-install/raw/dev/logo.png" alt="ioQuake3 Arena"/>
+  <img src="https://github.com/diegoulloao/ioquake3-mac-install/raw/master/logo.png" alt="ioQuake3 Arena"/>
 </p>
 
 # Instala ioquake3 en macOS
@@ -29,6 +29,15 @@ Sólo tomará unos minutos. Espera hasta que el proceso se complete ...
 ```
 rm -rf ~/Library/Application\ Support/Quake3 /Applications/ioquake3
 ```
+
+## Cómo extender
+**Para extender** ioquake _(con un mod por ej)_ puedes simplemente **ejecutar en terminal:**
+```
+open ~/Library/Application\ Support/Quake3 /Applications/ioquake3
+```
+Y luego arrastrar los archivos necesarios.
+
+---
 
 ## De qué se trata?
 **"ioquake3 mac install"** pretende ser **la solución unificada y más simple** de instalar quake 3 arena (con motor ioquake3 mejorado) en computadoras mac.
