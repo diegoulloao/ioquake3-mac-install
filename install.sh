@@ -20,7 +20,7 @@ set -e		# exit on error
 
 
 # VARIABLES
-declare -r BRANCH="master"
+declare -r BRANCH="dev"
 
 
 
@@ -66,13 +66,18 @@ echo "\n
 unzip -a -o ioquake3.zip
 rm -f ioquake3.zip
 
-cd __MACOSX
-rm -rf ioquake3
+if [ -d __MACOSX  ]; then
+  cd __MACOSX
 
-cd ..
+  if [ -d ioquake3 ]; then
+    rm -rf ioquake3
+  fi
 
-if [ ! `ls -A __MACOSX` ]; then
-	rm -rf __MACOSX
+  cd ..
+
+  if [ ! `ls -A __MACOSX` ]; then
+    rm -rf __MACOSX
+  fi
 fi
 
 echo "\n\n-> ioquake 1.36 installed. 	(1 of 9)"
