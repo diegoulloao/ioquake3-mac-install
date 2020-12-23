@@ -40,7 +40,7 @@ Just drag and drop your mods, maps and models inside.
 
 # Requirements
 
-- macOs 64-bits based
+- macOs 10.7 or later
 
 # Packages
 
@@ -71,17 +71,16 @@ Go to `System Preferences > Security & Privacy Settings` and click button: `open
 **Read more: [http://support.apple.com/kb/HT5290](http://support.apple.com/kb/HT5290)**
 
 # Information
-The **ioquake3.app** here included was **compiled directly from [ioquake3 source code](https://github.com/ioquake/ioq3) repository.** This version includes **commits to date Aug 23, 2019 ["Create Funding.yml"](https://github.com/ioquake/ioq3/commit/4d82b8b5257675b8010cd59a203d713c33640046)**
+The **ioquake3.app** here included was **compiled directly from [ioquake3 source code](https://github.com/ioquake/ioq3) repository.**
+
+# Last Updated (2020-12-23)
+This version includes **commits to date Nov. 17, 2020 ["[sdl] Turn tentative definition into actual definition."](https://github.com/ioquake/ioq3/commit/d1b7ab6b22cc99205ac890910e286859e30df40e)**
 
 # Development
 
-**Diego Ulloa [@diegoulloao](https://github.com/diegoulloao)** | js php fullstack developer
+**Diego Ulloa [@diegoulloao](https://github.com/diegoulloao)**
 
 You can visit my website: http://diegoulloa.dev/
-
-# Changelog (2019-12-21)
-- Fix # [macOS Catalina: Only bottom left quarter of the screen is used by the game](https://github.com/ioquake/ioq3/issues/422)
-- Fix # [Mac OS X: App not 64-bit optimized for Mac OS Catalina?](https://github.com/ioquake/ioq3/issues/418)
 
 # Licence
 
@@ -90,4 +89,4 @@ You can visit my website: http://diegoulloa.dev/
 Read the [LICENSE](https://github.com/diegoulloao/ioquake3-mac-install/blob/master/LICENSE)
 
 ---
-**[@diegoulloao](https://github.com/diegoulloao) · 2019**
+**[@diegoulloao](https://github.com/diegoulloao) · 2020**
