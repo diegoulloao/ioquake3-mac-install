@@ -6,22 +6,32 @@
   <img src="https://github.com/diegoulloao/ioquake3-mac-install/raw/master/logo.png" alt="ioQuake3 Arena" width="560"/>
 </p>
 
+---
+### IMPORTANT:
+## This is an [UNOFFICIAL](#) ioquake3 version
+
+<p><b><a href="#">Please do not report issues in the ioquake3 official repository.</a> This project is not related to them and is totally independent.</b></p>
+
+---
+
+<br/>
+
 [ ✔ ] **macOs Catalina compatible**
 
 # Installation
 **ioquake3** for macOs can be installed with only one instruction
-```
+```sh
 curl -L https://git.io/ioq3mac | sh
 ```
 
 # Remove
-```
+```sh
 rm -rf ~/Library/Application\ Support/Quake3 /Applications/ioquake3
 ```
 
 # How to extend
 ### Step 1: Open the application folder
-```
+```sh
 open ~/Library/Application\ Support/Quake3
 ```
 
@@ -65,7 +75,7 @@ The **ioquake3.app** here included was **compiled directly from [ioquake3 source
 
 # Development
 
-**Diego Ulloa [@diegoulloao](https://github.com/diegoulloao)**, js php fullstack developer
+**Diego Ulloa [@diegoulloao](https://github.com/diegoulloao)** | js php fullstack developer
 
 You can visit my website: http://diegoulloa.dev/
 
