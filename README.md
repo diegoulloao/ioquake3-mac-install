@@ -21,7 +21,7 @@
 # Installation
 **ioquake3** for macOs can be installed with only one instruction
 ```sh
-curl -L https://git.io/ioq3mac-dev | sh
+curl -L https://git.io/ioq3mac | sh
 ```
 
 # Remove
