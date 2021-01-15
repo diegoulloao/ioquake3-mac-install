@@ -20,7 +20,7 @@ set -e		# exit on error
 
 
 # VARIABLES
-declare -r BRANCH="dev"
+declare -r BRANCH="master"
 
 
 
