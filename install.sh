@@ -37,7 +37,8 @@ declare -r q3_ls="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANC
 declare -r hd_weapons="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/extras/hd-weapons.pk3"
 
 # External
-declare -r hi_res="http://ioquake3.org/files/xcsv_hires.zip"
+# declare -r hi_res="http://ioquake3.org/files/xcsv_hires.zip"
+declare -r hi_res="https://download.d-l.fr/apache_listing//jeux/quake3/common/xcsv_hires.zip"
 declare -r mappack="https://cdn.playmorepromode.com/files/cpma-mappack-full.zip"
 declare -r cpma="https://cdn.playmorepromode.com/files/cpma/cpma-1.52-nomaps.zip"
 
