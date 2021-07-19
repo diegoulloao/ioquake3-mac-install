@@ -16,7 +16,7 @@
 
 <br/>
 
-[ ✔ ] **macOs Catalina compatible**
+[ ✔ ] **macOs Big Sur M1 compatible**
 
 # Installation
 **ioquake3** for macOs can be installed with only one instruction
