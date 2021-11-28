@@ -16,12 +16,23 @@
 
 <br/>
 
-[ ✔ ] **macOs Big Sur M1 compatible**
+[ ✔ ]  **macOs M1 support** (Big Sur and Monterrey)
 
 # Installation
-**ioquake3** for macOs can be installed with only one instruction
+**ioquake3** for macOs can be installed with only one instruction.
+
+Please choose your processor version:
+
+`Apple Silicon M1`
+
 ```sh
-curl -L git.io/ioq3mac | sh
+curl -L git.io/ioq3mac-dev | sh -s m1
+```
+
+`Intel 32/64`
+
+```sh
+curl -L git.io/ioq3mac-dev | sh
 ```
 
 # Remove
@@ -33,6 +44,16 @@ rm -rf ~/Library/Application\ Support/Quake3 /Applications/ioquake3
 ### Step 1: Open the application folder
 ```sh
 open ~/Library/Application\ Support/Quake3
+```
+
+As alternative you can add an alias to your `.bashrc` or `.zshrc` file:
+```sh
+alias q3folder="open ~/Library/Application\ Support/Quake3"
+```
+
+And use it like:
+```sh
+q3folder
 ```
 
 ### Step 2: Copy your files
@@ -71,10 +92,10 @@ Go to `System Preferences > Security & Privacy Settings` and click button: `open
 **Read more: [http://support.apple.com/kb/HT5290](http://support.apple.com/kb/HT5290)**
 
 # Information
-The **ioquake3.app** here included was **compiled directly from [ioquake3 source code](https://github.com/ioquake/ioq3) repository.**
+The **ioquake3.app (Intel 32/64)** here included was **compiled directly from [ioquake3 source code](https://github.com/ioquake/ioq3) repository.**
 
-# Last Updated (2020-12-23)
-This version includes **commits to date Nov. 17, 2020 ["[sdl] Turn tentative definition into actual definition."](https://github.com/ioquake/ioq3/commit/d1b7ab6b22cc99205ac890910e286859e30df40e)**
+# Last Updated (2021-11-28)
+Intel version includes **commits to date Nov. 17, 2020 ["[sdl] Turn tentative definition into actual definition."](https://github.com/ioquake/ioq3/commit/d1b7ab6b22cc99205ac890910e286859e30df40e)**
 
 # Development
 
@@ -89,4 +110,4 @@ You can visit my website: http://diegoulloa.dev/
 Read the [LICENSE](https://github.com/diegoulloao/ioquake3-mac-install/blob/master/LICENSE)
 
 ---
-**[@diegoulloao](https://github.com/diegoulloao) · 2020**
+**[@diegoulloao](https://github.com/diegoulloao) · 2021**
