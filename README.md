@@ -26,13 +26,13 @@ Please choose your processor version:
 `Apple Silicon M1`
 
 ```sh
-curl -L git.io/ioq3mac-dev | sh -s m1
+curl -L git.io/ioq3mac | sh -s m1
 ```
 
 `Intel 32/64`
 
 ```sh
-curl -L git.io/ioq3mac-dev | sh
+curl -L git.io/ioq3mac | sh
 ```
 
 # Remove
