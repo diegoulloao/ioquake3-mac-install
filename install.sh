@@ -3,14 +3,14 @@
 
 
 #
-# 	Install ioquake3 on macOs (Catalina compatible)
+# 	Install ioquake3 on macOs (M1 compatible)
 # 	
-# 	Developer: Diego Ulloa [ @diegoullao ]
+# 	Author: Diego Ulloa [ @diegoullao ]
 # 	
 # 	Email: diegoulloao@icloud.com
-# 	Website: http://www.diegoulloa.cl/
+# 	Website: https://diegoulloa.dev/
 # 	
-# 	@version: 3
+# 	@version: 3.1
 # 
 
 
@@ -20,7 +20,7 @@ set -e		# exit on error
 
 
 # VARIABLES
-declare -r BRANCH="master"
+declare -r BRANCH="dev"
 
 
 
@@ -28,6 +28,7 @@ declare -r BRANCH="master"
 
 # Repository
 declare -r ioquake3="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/ioquake3-1.36-x64.zip"
+declare -r ioquake3_m1="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/ioquake3-1.36-silicon.zip"
 declare -r pak0="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/baseq3/pak0/pak0.@"
 declare -r pak="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/baseq3/pak@.pk3"
 declare -r cd_key="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/baseq3/q3key"
@@ -43,6 +44,8 @@ declare -r mappack="https://cdn.playmorepromode.com/files/cpma-mappack-full.zip"
 declare -r cpma="https://cdn.playmorepromode.com/files/cpma/cpma-1.52-nomaps.zip"
 
 
+# Parameters
+isM1=$([ "$1" == m1 ] && echo true || echo false)
 
 # Installation begins
 cd /Applications
@@ -52,15 +55,15 @@ cd /Applications
 # ioquake3
 echo "\n
 **************************************************
-	Downloading ioquake3 1.36 ...
+  Downloading ioquake3 1.36 $([ "$isM1" == "true" ] && echo "(M1)")...
 **************************************************
 \n"
 
-curl -L $ioquake3 > ioquake3.zip
+curl -L $([ "$isM1" == "true" ] && echo "$ioquake3_m1" || echo "$ioquake3") > ioquake3.zip
 
 echo "\n
 ++++++++++++++++++++++++++++++++++++++++++++++++++
-	Installing ioquake3 1.36 ...
+  Installing ioquake3 1.36 $([ "$isM1" == "true" ] && echo "(M1)")...
 ++++++++++++++++++++++++++++++++++++++++++++++++++
 \n"
 
@@ -81,7 +84,7 @@ if [ -d __MACOSX  ]; then
   fi
 fi
 
-echo "\n\n-> ioquake 1.36 installed. 	(1 of 9)"
+echo "\n\n-> ioquake 1.36 $([ "$isM1" == "true" ] && echo "(M1)") installed. 	(1 of 9)"
 
 
 
@@ -99,7 +102,6 @@ if [ ! -d baseq3 ]; then
 fi
 
 cd baseq3
-
 
 
 # gets pak.pk3 files
@@ -285,13 +287,13 @@ echo "\n\n-> hd-weapons installed. 	(9 of 9)"
 
 # Done.
 echo "\n
----------------------------------------------------
-	QUAKE 3 ARENA: SUCCESSFUL INSTALLATION.
----------------------------------------------------
+----------------------------------------------------
+	QUAKE 3 ARENA $([ "$isM1" == "true" ] && echo "(M1)"): INSTALLATION SUCCESSFUL.
+----------------------------------------------------
 	Now to kick asses! ->
----------------------------------------------------
+----------------------------------------------------
 
--> follow on github: @diegoulloao :)
+-> follow me on github: @diegoulloao :)
 \n"
 
 
