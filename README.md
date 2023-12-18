@@ -86,7 +86,7 @@ All packages and improvements are listed here:
 
 `Last Update: 2023/12/18`
 
-The ioquake3.app here included was **directly compiled** from the [ioquake3 source code](https://github.com/ioquake/ioq3) repository.
+The ioquake3 app here included was **compiled directly** from the [ioquake3 source code](https://github.com/ioquake/ioq3) repository.
 
 It includes commits to date **Nov. 22, 2023**.
 
@@ -106,12 +106,12 @@ And click the button _"open anyway"_.
 
 # Q&A ❔
 
-#### What is this?
+### What is this?
 
 `ioquake3-mac-install` pretends to be **the one unified and most simply way** to install quake3 arena on mac computers.
 This includes **a lot of improvements** like high quality textures, improved sounds, most knowed mods, etc.
 
-#### What is the ioquake3 engine?
+### What is the ioquake3 engine?
 
 Please visit: https://ioquake3.org/
 
