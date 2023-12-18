@@ -5,7 +5,7 @@
 # 	website: https://diegoulloa.dev/
 # 	version: 4
 
-set -e		# exit on error
+set -e # exit on error
 
 # Variables
 declare -r BRANCH="dev"
