@@ -27,7 +27,7 @@
 **ioquake3** for macOs is installed by running 1 command:
 
 ```sh
-curl -L git.io/ioq3mac-dev | sh
+curl -L git.io/ioq3mac | sh
 ```
 
 This is an Universal compilation and it will work for both `arm64` and `x64/32` processors.
