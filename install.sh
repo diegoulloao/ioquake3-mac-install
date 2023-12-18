@@ -217,9 +217,6 @@ echo "\n
 	QUAKE 3 ARENA: SUCCESSFUL INSTALLATION.
 ----------------------------------------------------
 	Now to kick asses! ->
-----------------------------------------------------
-
--> follow me on github: @diegoulloao :)
 \n"
 
 # End installation
