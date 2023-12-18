@@ -8,7 +8,7 @@
 set -e # exit on error
 
 # Variables
-declare -r BRANCH="dev"
+declare -r BRANCH="master"
 
 # Local Dependencies
 declare -r ioquake3="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/ioquake3.zip"
