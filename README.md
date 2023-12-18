@@ -119,6 +119,15 @@ Please visit: https://ioquake3.org/
 
 You can visit my personal website: https://diegoulloa.dev/
 
+# Related projects 🔥
+
+### `ioquake3-server-gcloud`
+
+"The fastest way to deploy your own ioquake3 server using docker, kubernetes and google cloud".
+https://github.com/diegoulloao/ioquake3-server-gcloud
+
+**Deploy a quake3 server to Google Cloud in 1 command!**
+
 # Licence 📄
 
 Licensed **MIT**: [LICENSE](https://github.com/diegoulloao/ioquake3-mac-install/blob/master/LICENSE)
