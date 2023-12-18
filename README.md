@@ -71,16 +71,16 @@ q3folder
 
 All packages and improvements are listed here:
 
-| package                       | description                                    |
-| ----------------------------- | ---------------------------------------------- |
-| ioquake3 1.36 for macOs       | Quake3 arena (improved engine) for macOs v1.36 |
-| ioquake3 latest pk3 files     | Latest pk3 files (point release patches)       |
-| CPMA 1.52                     | Challenge pro mode arena mod v1.52             |
-| CPMA Map Pack                 | Set of maps and dependencies for CPMA          |
-| High Resolution Textures Pack | High resolution textures                       |
-| Complementary HQ Textures     | Complementary textures in high quality         |
-| Quake 3 Live Sounds Pack      | Quake3 live audios + high quality sounds       |
-| **`NEW`** Quake 3 HD Weapons  | Quake3 new 2019 weapons re-textures            |
+| package                       | description                              |
+| ----------------------------- | ---------------------------------------- |
+| ioquake3 for macOs            | Quake3 arena (improved engine) for macOs |
+| ioquake3 latest pk3 files     | Latest pk3 files (point release patches) |
+| **`NEW`** CPMA 1.53           | Challenge pro mode arena mod v1.53       |
+| CPMA Map Pack                 | Set of maps and dependencies for CPMA    |
+| High Resolution Textures Pack | High resolution textures                 |
+| Complementary HQ Textures     | Complementary textures in high quality   |
+| Quake 3 Live Sounds Pack      | Quake3 live audios + high quality sounds |
+| **`NEW`** Quake 3 HD Weapons  | Quake3 new 2019 weapons re-textures      |
 
 # Information 💎
 
