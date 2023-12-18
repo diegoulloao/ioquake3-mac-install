@@ -7,107 +7,122 @@
 </p>
 
 ---
-### IMPORTANT:
-## This is an [UNOFFICIAL](#) ioquake3 version
 
-<p><b><a href="#">Please do not report issues in the ioquake3 official repository.</a> This project is not related to them and is totally independent.</b></p>
-
----
+> [!IMPORTANT]
+> This is an [unofficial](#) ioquake3 version.
+>
+> Please do not report issues in the ioquake3 official repository.</a> This project is not related to them and is totally independent.
 
 <br/>
 
-[ ✔ ]  **macOs M1 support** (Big Sur and Monterrey)
+ **macOs M1 support**
 
-# Installation
-**ioquake3** for macOs can be installed with only one instruction.
+# Requirements 📋
 
-Please choose your processor version:
+- macOs version `10.9` or later
+- Compatible with `arm64` and `x64/32` processors
 
-`Apple Silicon M1`
+# Installation ✨
 
-```sh
-curl -L git.io/ioq3mac | sh -s m1
-```
-
-`Intel 32/64`
+**ioquake3** for macOs is installed by running 1 command:
 
 ```sh
 curl -L git.io/ioq3mac | sh
 ```
 
-# Remove
+This is an Universal compilation and it will work for both `arm64` and `x64/32` processors.
+
+# Uninstalling ⭕
+
+The following command will remove all the files:
+
 ```sh
 rm -rf ~/Library/Application\ Support/Quake3 /Applications/ioquake3
 ```
 
-# How to extend
-### Step 1: Open the application folder
+# Adding extras 🚀
+
+Open the folder and add your files in:
+
 ```sh
 open ~/Library/Application\ Support/Quake3
 ```
 
-As alternative you can add an alias to your `.bashrc` or `.zshrc` file:
+<details>
+    <summary>Tip: Adding an alias to the system 💡</summary>
+
+<br />
+
+Alternatively you can add an alias to `.bashrc` or `.zshrc`:
+
 ```sh
 alias q3folder="open ~/Library/Application\ Support/Quake3"
 ```
 
-And use it like:
+Then is available for use:
+
 ```sh
 q3folder
 ```
 
-### Step 2: Copy your files
-Just drag and drop your mods, maps and models inside.
+</details>
 
-# Requirements
+# Packages 📦
 
-- macOs 10.7 or later
+All packages and improvements are listed here:
 
-# Packages
+| package                       | description                                    |
+| ----------------------------- | ---------------------------------------------- |
+| ioquake3 1.36 for macOs       | Quake3 arena (improved engine) for macOs v1.36 |
+| ioquake3 latest pk3 files     | Latest pk3 files (point release patches)       |
+| CPMA 1.52                     | Challenge pro mode arena mod v1.52             |
+| CPMA Map Pack                 | Set of maps and dependencies for CPMA          |
+| High Resolution Textures Pack | High resolution textures                       |
+| Complementary HQ Textures     | Complementary textures in high quality         |
+| Quake 3 Live Sounds Pack      | Quake3 live audios + high quality sounds       |
+| **`NEW`** Quake 3 HD Weapons  | Quake3 new 2019 weapons re-textures            |
 
-| package                       	| description                                    	|
-|-------------------------------	|------------------------------------------------	|
-| ioquake3 1.36 for macOs       	| Quake3 arena (improved engine) for macOs v1.36 	|
-| ioquake3 latest pk3 files     	| Latest pk3 files (point release patches)       	|
-| CPMA 1.52                     	| Challenge pro mode arena mod v1.52             	|
-| CPMA Map Pack                 	| Set of maps and dependencies for CPMA          	|
-| High Resolution Textures Pack 	| High resolution textures                       	|
-| Complementary HQ Textures     	| Complementary textures in high quality         	|
-| Quake 3 Live Sounds Pack      	| Quake3 live audios + high quality sounds       	|
-| **`NEW`** Quake 3 HD Weapons    | Quake3 new 2019 weapons re-textures            	|
+# Information 💎
 
-# Q&A
-## What is this?
-**ioquake3 mac install** pretends to be **the one unified and most simply way** to install quake3 arena on mac computers.
+`Last Update: 2023/12/18`
+
+The ioquake3 app here included was **compiled directly** from the [ioquake3 source code](https://github.com/ioquake/ioq3) repository.
+
+It includes commits to date **Nov. 22, 2023**.
+
+["OpenGL2: Fix updating the loading screen with r_cubeMapping 1"](https://github.com/ioquake/ioq3/tree/972635ea5a3d1057d9a958c2cb1815dff05ab33b)
+
+# Troubleshooting ⚡️
+
+#### `1. ioquake3.app can't be opened because it is from an unidentified developer`
+
+Open Privacy and Settings:
+
+`System Preferences > Security & Privacy Settings`
+
+And click the button _"open anyway"_.
+
+**Read more about: [http://support.apple.com/kb/HT5290](http://support.apple.com/kb/HT5290)**
+
+# Q&A ❔
+
+### What is this?
+
+`ioquake3-mac-install` pretends to be **the one unified and most simply way** to install quake3 arena on mac computers.
 This includes **a lot of improvements** like high quality textures, improved sounds, most knowed mods, etc.
 
-## What is the ioquake3 engine?
-### Please visit: https://ioquake3.org/
+### What is the ioquake3 engine?
 
-# Troubleshooting
-> **ioquake3.app can't be opened because it is from an unidentified developer**
+Please visit: https://ioquake3.org/
 
-Go to `System Preferences > Security & Privacy Settings` and click button: `open anyway`
+# Development 💻
 
-**Read more: [http://support.apple.com/kb/HT5290](http://support.apple.com/kb/HT5290)**
+You can visit my personal website: https://diegoulloa.dev/
 
-# Information
-The **ioquake3.app (Intel 32/64)** here included was **compiled directly from [ioquake3 source code](https://github.com/ioquake/ioq3) repository.**
+# Licence 📄
 
-# Last Updated (2021-11-28)
-Intel version includes **commits to date Nov. 17, 2020 ["[sdl] Turn tentative definition into actual definition."](https://github.com/ioquake/ioq3/commit/d1b7ab6b22cc99205ac890910e286859e30df40e)**
-
-# Development
-
-**Diego Ulloa [@diegoulloao](https://github.com/diegoulloao)**
-
-You can visit my website: http://diegoulloa.dev/
-
-# Licence
-
-**GNU GPLv3**
-
-Read the [LICENSE](https://github.com/diegoulloao/ioquake3-mac-install/blob/master/LICENSE)
+Licensed **MIT**: [LICENSE](https://github.com/diegoulloao/ioquake3-mac-install/blob/master/LICENSE)
 
 ---
-**[@diegoulloao](https://github.com/diegoulloao) · 2021**
+
+**diegoulloao · 2024**
