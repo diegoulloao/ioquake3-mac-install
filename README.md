@@ -15,7 +15,7 @@
 
 <br/>
 
- **macOs M1 support**
+ **apple silicon support**
 
 # Requirements 📋
 
