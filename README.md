@@ -94,15 +94,27 @@ It includes commits to date **Nov. 22, 2023**.
 
 # Troubleshooting ⚡️
 
-#### `1. ioquake3.app can't be opened because it is from an unidentified developer`
+### `1. ioquake3.app can't be opened`
+You may face this warning:
+> ioquake3.app can't be opened because it is from an unidentified developer
 
 Open Privacy and Settings:
 
 `System Preferences > Security & Privacy Settings`
 
-And click the button _"open anyway"_.
+And click the button "open anyway".
 
 **Read more about: [http://support.apple.com/kb/HT5290](http://support.apple.com/kb/HT5290)**
+
+### `2. fullscreen does not fill the screen`
+Try running the following commands inside the quake3 console:
+```
+/seta r_customwidth "screen_width"
+/seta r_customheight "screen_height"
+/seta r_fullscreen "1"
+/seta r_mode "-1"
+/vid_restart
+```
 
 # Q&A ❔
 
