@@ -19,6 +19,8 @@
 
 ![cover](https://github.com/diegoulloao/ioquake3-mac-install/blob/master/screenshots/cover.png?raw=true)
 
+[Check the hq screenshots page](https://github.com/diegoulloao/ioquake3-mac-install/blob/master/screenshots.md) 😍
+
 # Requirements 📋
 
 - macOs version `10.9` or later
