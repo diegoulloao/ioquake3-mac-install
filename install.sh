@@ -3,7 +3,7 @@
 # 	ioquake3 mac install
 # 	author: Diego Ulloa
 # 	website: https://diegoulloa.dev/
-# 	version: 4
+# 	version: 4.1
 
 set -e # exit on error
 
@@ -18,6 +18,7 @@ declare -r cd_key="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRAN
 declare -r xpr="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/extras/extra-pack-resolution.pk3"
 declare -r q3_ls="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/extras/quake3-live-sounds.pk3"
 declare -r hd_weapons="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/extras/hd-weapons.pk3"
+declare -r zpack_weapons="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/extras/zpack-weapons.pk3"
 
 # External dependencies
 declare -r pak0="https://github.com/nrempel/q3-server/raw/master/baseq3/pak0.pk3"
@@ -60,7 +61,7 @@ if [ -d __MACOSX  ]; then
   fi
 fi
 
-echo "\n\n-> ioquake installed. 	(1 of 9)"
+echo "\n\n-> ioquake installed. 	(1 of 10)"
 
 # Create Quake3 and baseq3 directories
 cd "$HOME/Library/Application Support/"
@@ -102,7 +103,7 @@ while [ $COUNT -lt 9 ] ; do
 	let COUNT+=1
 done
 
-echo "\n\n-> pak files installed. 	(2 of 9)"
+echo "\n\n-> pak files installed. 	(2 of 10)"
 
 # High Resolution Pack
 echo "\n
@@ -122,7 +123,7 @@ echo "\n
 unzip -a -o xcsv_hires.zip
 rm -f xcsv_hires.zip
 
-echo "\n\n-> high resolution pack installed. 	(3 of 9)"
+echo "\n\n-> high resolution pack installed. 	(3 of 10)"
 
 # Extra pack resolution
 echo "\n
@@ -133,7 +134,7 @@ echo "\n
 
 curl -L $xpr > pak9hqq37test20181106.pk3
 
-echo "\n\n-> extra pack resolutions installed. 	(4 of 9)"
+echo "\n\n-> extra pack resolutions installed. 	(4 of 10)"
 
 # CPMA map pack
 echo "\n
@@ -153,7 +154,7 @@ echo "\n
 unzip -a -o -d . cpma-mappack-full.zip
 rm -f cpma-mappack-full.zip
 
-echo "\n\n-> cpma map-pack installed. 	(5 of 9)"
+echo "\n\n-> cpma map-pack installed. 	(5 of 10)"
 
 # Q3 live sounds pack
 echo "\n
@@ -164,7 +165,7 @@ echo "\n
 
 curl -L $q3_ls > quake3-live-soundpack.pk3
 
-echo "\n\n-> quake3 live soundpack installed. 	(6 of 9)"
+echo "\n\n-> quake3 live soundpack installed. 	(6 of 10)"
 
 # CPMA MOD
 echo "\n
@@ -185,7 +186,7 @@ echo "\n
 unzip -a -o cpma.zip
 rm -f cpma.zip
 
-echo "\n\n-> cpma mod 1.52 installed. 	(7 of 9)"
+echo "\n\n-> cpma mod 1.52 installed. 	(7 of 10)"
 
 # cd-key
 echo "\n
@@ -198,7 +199,7 @@ cd baseq3
 
 curl -L $cd_key > q3key
 
-echo "\n\n-> cd-key installed. 	(8 of 9)"
+echo "\n\n-> cd-key installed. 	(8 of 10)"
 
 # hd-weapons
 echo "\n
@@ -209,7 +210,18 @@ echo "\n
 
 curl -L $hd_weapons > pakxy01Tv5.pk3
 
-echo "\n\n-> hd-weapons installed. 	(9 of 9)"
+echo "\n\n-> hd-weapons installed. 	(9 of 10)"
+
+# zpack-weapons replacement
+echo "\n
+**************************************************
+	Downloading and installing zpack-weapons ...
+**************************************************
+\n"
+
+curl -L $zpack_weapons > zpack-weapons.pk3
+
+echo "\n\n-> zpack-weapons installed. 	(10 of 10)"
 
 # Resume installation
 echo "\n
