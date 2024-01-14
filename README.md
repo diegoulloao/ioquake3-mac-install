@@ -71,16 +71,17 @@ q3folder
 
 All packages and improvements are listed here:
 
-| package                       | description                              |
-| ----------------------------- | ---------------------------------------- |
-| ioquake3 for macOs            | Quake3 arena (improved engine) for macOs |
-| ioquake3 latest pk3 files     | Latest pk3 files (point release patches) |
-| **`NEW`** CPMA 1.53           | Challenge pro mode arena mod v1.53       |
-| CPMA Map Pack                 | Set of maps and dependencies for CPMA    |
-| High Resolution Textures Pack | High resolution textures                 |
-| Complementary HQ Textures     | Complementary textures in high quality   |
-| Quake 3 Live Sounds Pack      | Quake3 live audios + high quality sounds |
-| **`NEW`** Quake 3 HD Weapons  | Quake3 new 2019 weapons re-textures      |
+| package                                | description                              |
+| -------------------------------------- | ---------------------------------------- |
+| ioquake3 for macOs                     | Quake3 arena (improved engine) for macOs |
+| ioquake3 latest pk3 files              | Latest pk3 files (point release patches) |
+| **`NEW`** CPMA 1.53                    | Challenge pro mode arena mod v1.53       |
+| CPMA Map Pack                          | Set of maps and dependencies for CPMA    |
+| High Resolution Textures Pack          | High resolution textures                 |
+| Complementary HQ Textures              | Complementary textures in high quality   |
+| Quake 3 Live Sounds Pack               | Quake3 live audios + high quality sounds |
+| **`NEW`** Quake 3 HD Weapons           | Quake3 new 2019 weapons re-textures      |
+| **`NEW`** Quake 3 Weapons Replacements | Replacements for RL, RG and GL weapons   |
 
 # Information 💎
 
@@ -95,7 +96,9 @@ It includes commits to date **Nov. 22, 2023**.
 # Troubleshooting ⚡️
 
 ### `1. ioquake3.app can't be opened`
+
 You may face this warning:
+
 > ioquake3.app can't be opened because it is from an unidentified developer
 
 Open Privacy and Settings:
@@ -107,7 +110,9 @@ And click the button "open anyway".
 **Read more about: [http://support.apple.com/kb/HT5290](http://support.apple.com/kb/HT5290)**
 
 ### `2. fullscreen does not fill the screen`
+
 Try running the following commands inside the quake3 console:
+
 ```
 /seta r_customwidth "screen_width"
 /seta r_customheight "screen_height"
