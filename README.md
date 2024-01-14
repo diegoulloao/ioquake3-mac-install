@@ -17,7 +17,7 @@
 
  **apple silicon support**
 
-![peo](https://github.com/diegoulloao/ioquake3-mac-install/blob/master/screenshots/cover.png?raw=true)
+![cover](https://github.com/diegoulloao/ioquake3-mac-install/blob/master/screenshots/cover.png?raw=true)
 
 # Requirements 📋
 
