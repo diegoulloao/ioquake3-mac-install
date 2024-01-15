@@ -3,7 +3,6 @@
 # 	ioquake3 mac install
 # 	author: Diego Ulloa
 # 	website: https://diegoulloa.dev/
-# 	version: 4.1
 
 set -e # exit on error
 
@@ -61,7 +60,7 @@ if [ -d __MACOSX  ]; then
   fi
 fi
 
-echo "\n\n-> ioquake installed. 	(1 of 10)"
+echo "\n\n-> ioquake3 installed. 	(1 of 10)"
 
 # Create Quake3 and baseq3 directories
 cd "$HOME/Library/Application Support/"
