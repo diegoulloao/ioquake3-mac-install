@@ -60,13 +60,13 @@ open ~/Library/Application\ Support/Quake3
 Alternatively you can add an alias to `.bashrc` or `.zshrc`:
 
 ```sh
-alias q3folder="open ~/Library/Application\ Support/Quake3"
+alias @q3f="open ~/Library/Application\ Support/Quake3"
 ```
 
 Then is available for use:
 
 ```sh
-q3folder
+@q3f
 ```
 
 </details>
