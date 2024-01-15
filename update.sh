@@ -13,24 +13,24 @@ declare -r BRANCH="master"
 declare -r ioquake3="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/ioquake3.zip"
 
 # Versions files
-declare -r latest_version_url="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/version"
-declare -r current_version_file_path="~/Library/Application\ Support/Quake3/version"
+declare -r latest_version_url="https://raw.githubusercontent.com/diegoulloao/ioquake3-mac-install/$BRANCH/version"
+declare -r current_version_file_path=~/Library/Application\ Support/Quake3/version
 
 # Escape if no version files is present
-if [ -f "$current_version_file_path" ]; then
-  echo "Could not found the version file on your system."
+if ! [ -f "$current_version_file_path" ]; then
+  echo "\nCould not found the version file on your system."
   exit 0
 fi
 
 # Get current ioquake3 version on the system
-current_version=$(cat $current_version_file_path)
+current_version=$(cat "$current_version_file_path")
 
 # Fetch latest version from server
 latest_version=$(curl $latest_version_url | sed '/^[[:space:]]*$/d')
 
 # Escape if is already updated to lastest
 if [ "$current_version" == "$latest_version" ]; then
-  echo "There is no update available."
+  echo "\nioquake3 is up to date :)"
   exit 0
 fi
 
@@ -60,6 +60,7 @@ if [ -d __MACOSX  ]; then
 
   if [ -d ioquake3 ]; then
     rm -rf ioquake3
+    rm -rf ._ioquake3
   fi
 
   cd ..
@@ -70,6 +71,6 @@ if [ -d __MACOSX  ]; then
 fi
 
 # Update local version
-echo $current_version > $current_version_file_path
+echo $latest_version > "$current_version_file_path"
 
 echo "\n\n-> ioquake3 updated successfully."

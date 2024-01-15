@@ -51,6 +51,7 @@ if [ -d __MACOSX  ]; then
 
   if [ -d ioquake3 ]; then
     rm -rf ioquake3
+    rm -rf ._ioquake3
   fi
 
   cd ..
