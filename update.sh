@@ -73,4 +73,4 @@ fi
 # Update local version
 echo $latest_version > "$current_version_file_path"
 
-echo "\n\n-> ioquake3 updated successfully."
+echo "\n\n-> ioquake3 successfully updated."
