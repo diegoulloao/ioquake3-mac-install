@@ -14,7 +14,7 @@ declare -r ioquake3="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BR
 
 # Versions files
 declare -r latest_version_url="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/version"
-declare -r current_version_file_path="/Library/Application\ Support/Quake3/version"
+declare -r current_version_file_path="~/Library/Application\ Support/Quake3/version"
 
 # Escape if no version files is present
 if [ -f "$current_version_file_path" ]; then
