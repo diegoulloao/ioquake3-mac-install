@@ -13,6 +13,7 @@ declare -r BRANCH="master"
 declare -r ioquake3="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/ioquake3.zip"
 declare -r pak="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/baseq3/pak@.pk3"
 declare -r cd_key="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/baseq3/q3key"
+declare -r version="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/version"
 
 declare -r xpr="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/extras/extra-pack-resolution.pk3"
 declare -r q3_ls="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/extras/quake3-live-sounds.pk3"
@@ -222,6 +223,17 @@ echo "\n
 curl -L $zpack_weapons > zpack-weapons.pk3
 
 echo "\n\n-> zpack-weapons installed. 	(10 of 10)"
+
+cd ..
+
+echo "\n
+**************************************************
+	Tagging version ...
+**************************************************
+\n"
+
+# set version
+curl -L $version > version
 
 # Resume installation
 echo "\n
